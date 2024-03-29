@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+    /* Primary */
+
+  --Green: hsl(75, 94%, 57%);
+
+  /* Neutral */
+
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark-Grey: hsl(0, 0%, 12%);
+  --Off-Black: hsl(0, 0%, 8%);
+}
+
+body {
+    background-color: var(--Off-Black);
+    font-family: "Inter", sans-serif; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    padding: 1.6rem;
+    margin: auto;
+    width: 18rem;
+    height: auto;
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+}
+
+.user-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user-data img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin-bottom: 0.4rem;
+}
+
+.user-data h1 {
+    color: var(--White);
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+
+.user-data p.location {
+    color: var(--Green);
+    font-size: 14px;
+    margin-top: 1rem;
+    margin-bottom: 1.4rem;
+    font-weight: 600;
+}
+
+.user-data p.job-title {
+    color: var(--White);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.button-links {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.social-btn {
+    background-color: var(--Grey);
+    color: var(--White);
+    padding: 0.8rem 0.8rem;
+    border-radius: 0.45rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.6px;
+    box-shadow: none;
+    border: none;
+    -webkit-border-radius: 0.45rem;
+    -moz-border-radius: 0.45rem;
+    -ms-border-radius: 0.45rem;
+    -o-border-radius: 0.45rem;
+}
