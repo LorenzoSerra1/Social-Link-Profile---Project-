@@ -16,7 +16,8 @@
 body {
     background-color: var(--Off-Black);
     font-family: "Inter", sans-serif; 
-    height: 100vh;
+    height: 95vh;
+    max-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,8 +60,8 @@ body {
 .user-data p.location {
     color: var(--Green);
     font-size: 14px;
-    margin-top: 1rem;
-    margin-bottom: 1.4rem;
+    margin-top: 0.7rem;
+    margin-bottom: 1.2rem;
     font-weight: 600;
 }
 
@@ -86,10 +87,21 @@ body {
     font-weight: 600;
     font-size: 0.8rem;
     letter-spacing: 0.6px;
-    box-shadow: none;
     border: none;
-    -webkit-border-radius: 0.45rem;
-    -moz-border-radius: 0.45rem;
-    -ms-border-radius: 0.45rem;
-    -o-border-radius: 0.45rem;
+}
+
+.social-btn:hover {
+    background-color: var(--Green);
+    color: var(--Off-Black);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.attribution {
+    color: var(--White);
+    margin-top: auto;
+    text-align: center;
 }
