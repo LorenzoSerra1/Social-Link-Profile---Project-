@@ -28,7 +28,7 @@ body {
     background-color: hsl(0, 0%, 12%);
     padding: 2rem;
     margin: auto;
-    width: 20rem;
+    max-width: 100%;
     height: auto;
     border-radius: 0.7rem;
     -webkit-border-radius: 0.7rem;
@@ -105,4 +105,16 @@ body {
     color: var(--White);
     margin-top: 0;
     text-align: center;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 375px) {
+    .card {
+        width: 75%;
+        margin: 10px auto;
+    }
+    .card .user-data p.job-title {
+        text-align: center;
+    }
 }
