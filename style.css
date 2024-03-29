@@ -16,7 +16,7 @@
 body {
     background-color: var(--Off-Black);
     font-family: "Inter", sans-serif; 
-    height: 95vh;
+    height: 96vh;
     max-height: 100vh;
     display: flex;
     justify-content: center;
@@ -26,15 +26,16 @@ body {
 
 .card {
     background-color: hsl(0, 0%, 12%);
-    padding: 1.6rem;
+    padding: 2rem;
     margin: auto;
-    width: 18rem;
+    width: 20rem;
     height: auto;
     border-radius: 0.7rem;
     -webkit-border-radius: 0.7rem;
     -moz-border-radius: 0.7rem;
     -ms-border-radius: 0.7rem;
     -o-border-radius: 0.7rem;
+    margin-bottom: auto;
 }
 
 .user-data {
@@ -102,6 +103,6 @@ body {
 
 .attribution {
     color: var(--White);
-    margin-top: auto;
+    margin-top: 0;
     text-align: center;
 }
